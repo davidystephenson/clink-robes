@@ -1,0 +1,71 @@
+{
+  "name": "clink-robes",
+  "description": "A Chakra UI v2 and react-router-dom link for the robes UI library",
+  "private": false,
+  "version": "0.1.6",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "chakra-ui",
+    "ui",
+    "library",
+    "frontend",
+    "link",
+    "react-router",
+    "react-router-dom",
+    "router",
+    "route",
+    "routing"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "npx tsc -b && npx tsup",
+    "lint": "npx ts-standard --fix",
+    "preview": "vite preview"
+  },
+  "author": {
+    "name": "David Y. Stephenson",
+    "email": "david@davidystephenson.com"
+  },
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidystephenson/clink-robe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidystephenson/clink-robe/issues"
+  },
+  "homepage": "https://github.com/davidystephenson/clink-robe#readme",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "react-router-dom": ">=7.6.0"
+  },
+  "dependencies": {
+    "robes": "^0.1.47"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "clink-react": "^0.2.15",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.6.0",
+    "ts-standard": "^12.0.2",
+    "tsup": "^8.4.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.30.1",
+    "vite": "^6.3.5"
+  }
+}
