@@ -36,19 +36,19 @@
   "license": "Unlicense",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidystephenson/clink-robe.git"
+    "url": "https://github.com/davidystephenson/clink-robes.git"
   },
   "bugs": {
-    "url": "https://github.com/davidystephenson/clink-robe/issues"
+    "url": "https://github.com/davidystephenson/clink-robes/issues"
   },
-  "homepage": "https://github.com/davidystephenson/clink-robe#readme",
+  "homepage": "https://github.com/davidystephenson/clink-robes#readme",
   "peerDependencies": {
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0",
     "react-router-dom": ">=7.6.0"
   },
   "dependencies": {
-    "robes": "^0.1.47"
+    "robes": "^0.1.51"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
